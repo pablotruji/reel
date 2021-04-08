@@ -133,7 +133,9 @@ header .categorias a.activo{
     position: relative;
 }
 
-.grid .item img{
+.grid .item img,
+.grid .item video
+{
     width: 100%;
     cursor: pointer;
     vertical-align: top;
@@ -161,7 +163,7 @@ header .categorias a.activo{
 }
 
 .overlay img {
-    max-width: 100%;
+    max-width: 400px;
 }
 
 .overlay .descripcion{
